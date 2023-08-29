@@ -9,8 +9,8 @@ class TV:
         self._control = None
         TV.numTV += 1
     @classmethod
-    #def get_numTV(cls):
-    #    return cls.numTV
+    def get_numTV(cls):
+        return cls.numTV
     def get_marca(self):
         return self._marca
     def set_marca(self,marca):
